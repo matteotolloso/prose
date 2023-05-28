@@ -1,3 +1,5 @@
+saved_models/*
+
 
 data/*
 !data/demo.fa
