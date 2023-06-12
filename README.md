@@ -55,7 +55,8 @@ This code requires Python 3. I prefer Anaconda for ease of use. If you don't hav
 ```
 conda env create -f environment.yml 
 
-wget 'https://unipiit-my.sharepoint.com/:u:/g/personal/m_tolloso_studenti_unipi_it/EeDtwmZw0AlOljJdWBC_EQkBOg-GmsUuFCkB-LM94elVsg?e=Crs57W&download=1'
+wget 'https://unipiit-my.sharepoint.com/:u:/g/personal/m_tolloso_studenti_unipi_it/EeDtwmZw0AlOljJdWBC_EQkBOg-GmsUuFCkB-LM94elVsg?e=Crs57W&download=1' -O prose_mt_3x1024.sav
+mkdir saved_models
 mv prose_mt_3x1024.sav ./saved_models/prose_mt_3x1024.sav
 ```
 
